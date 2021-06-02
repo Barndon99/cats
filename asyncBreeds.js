@@ -12,11 +12,13 @@ const breedDetailsFromFile = function(breed, done) {
   //        Currently not returning anything from here, so breedDetailsFromFile function returns undefined.
 };
 
-const done = function (breed) {
-console.log('Return Value: ', breed); // => will NOT print out details, instead we will see undefined!
-};
+// const done = function (breed) {
+// console.log('Return Value: ', breed); // => will NOT print out details, instead we will see undefined!
+// };
+// 
+// // we try to get the return value
+// const bombay = breedDetailsFromFile('Balinese', done);
 
-// we try to get the return value
-const bombay = breedDetailsFromFile('Balinese', done);
+module.exports = breedDetailsFromFile;
 
 
